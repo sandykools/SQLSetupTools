@@ -1,12 +1,5 @@
 # ASP.NET
-- task: NuGetCommand@2
-  inputs:
-    command: 'restore'
-    restoreSolution: '**/*.sln'
-    feedsToUse: 'select'
-    vstsFeed: '54a476e5-b0f8-4c6e-aa29-470dab2e17e8/6cc330ca-cfbb-4d91-ad1c-ebe64d7e7984'
-# Build and test ASP.NET projects.
-# Add steps that publish symbols, save build artifacts, deploy, and more:
+
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
 
 trigger:
